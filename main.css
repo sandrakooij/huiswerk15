@@ -1,0 +1,68 @@
+head{
+  background: #ebfdff
+}
+body{
+  background: #ebfdff;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+}
+ul a{
+  background-color: #ccf7fc;
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+  height: 30px;
+  width: 100px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  border-left: 2px;
+  border-right: 1px;
+  background-color: #ccf7fc;
+}
+li:hover{
+  background-color: lightblue;
+  font-weight: bold;
+  border-style: none;
+}
+footer{
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  border-left: auto;
+  border-right: auto;
+  background-color: #ccf7fc;
+}
+table{
+border-collapse: collapse;
+}
+td, th{
+padding: 25px 15px;
+}
+.form-center{
+  display:flex;
+  justify-content: center;
+}
+input[type="voornaam"], input[type="achternaam"], input[type="email"], textarea, select, button{
+  display: block;margin: 20px 0px;
+  width: 380px;
+  box-sizing: border-box;
+  border-radius: 5px; box-shadow: inset 3px 2px 5px lightblue;
+}
+textarea{
+  height: 110px;
+  padding: 7px 5px;
+}
+button:active{
+  background-color: darkblue;
+  color: white;
+  border-radius:54px;
+  box-shadow: inset 3px 3px 7px blue;
+}
